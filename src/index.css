@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.title{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+* {
+    scroll-behavior: smooth;
+    scroll-margin-top: 10px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

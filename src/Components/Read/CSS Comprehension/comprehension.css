@@ -1,0 +1,81 @@
+.step1 {
+    border-bottom-width: 66.6667px;
+    border-left-width: 25px;
+    border-right-width: 25px;
+    width: 50px;    
+    margin-left: 0px;          
+}
+
+.step2 {
+    border-bottom-width: 66.6667px;
+    border-left-width: 25px;
+    border-right-width: 25px;
+    width: 100px;    
+    margin-left: 0px;          
+}
+
+.step3 {
+    border-bottom-width: 66.6667px;
+    border-left-width: 25px;
+    border-right-width: 25px;
+    width: 150px;    
+    margin-left: 0px;          
+}
+
+.step4 {
+    border-bottom-width: 66.6667px;
+    border-left-width: 25px;
+    border-right-width: 25px;
+    width: 200px;    
+    margin-left: 0px;          
+}
+
+.step5 {
+    border-bottom-width: 66.6667px;
+    border-left-width: 25px;
+    border-right-width: 25px;
+    width: 250px;    
+    margin-left: 0px;        
+}
+
+#pyramid div.step {
+    z-index: 1;
+    position: relative;    
+    height: 0;
+    cursor: pointer;    
+    vertical-align: middle;    
+    display: flex;
+    margin: auto;    
+}
+
+#pyramid div.step.step5 {
+    border-bottom-color: #0B0F2B;
+    margin-top: 1rem;    
+    
+}
+
+#pyramid div.step.step4 {
+    border-bottom-color: #333554;
+    margin-top: 1rem;    
+    margin-bottom: 1rem;   
+}
+
+#pyramid div.step.step3 {
+    border-bottom-color: #005e74;
+    margin-top: 1rem;    
+    margin-bottom: 1rem;   
+}
+
+#pyramid div.step.step2 {
+    border-bottom-color: #00BCD4;
+    margin-top: 1rem;    
+    margin-bottom: 1rem;   
+}
+
+#pyramid div.step.step1 {
+    border-bottom-color: #FFC107;
+    margin-top: 1rem;    
+    margin-bottom: 1rem;   
+}
+/* #0B0F2B */
+

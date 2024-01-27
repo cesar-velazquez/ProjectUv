@@ -1,0 +1,25 @@
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}
+
+.animate-bounceIn {
+    animation: bounce 5s infinite;
+}
+
+.piramid1 {
+    border-bottom-width: 93.3333px;
+    border-left-width: 58.3333px;
+    border-right-width: 58.3333px;
+    width: 116.667px;
+    margin-left: 233.333px;
+}
