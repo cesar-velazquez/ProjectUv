@@ -26,8 +26,8 @@ const VideoRead = () => {
     useEffect(() => {
         if (youTubeAPIReady) {
             new window.YT.Player('player', {
-                height: '250px',
-                width: '300px',
+                // height: '250px',
+                // width: '300px',
                 videoId: 'hvU0jbjk4gM',
                 playerVars: {
                     'autoplay': 0,
@@ -43,7 +43,7 @@ const VideoRead = () => {
             <script src="https://www.youtube.com/iframe_api"></script>
 
             <section className='py-4 flex justify-center items-center '>
-                <div className='w-[300px] h-[250px] ' id="player"></div>
+                <div className='w-[300px] h-[250px] sm:w-[500px] sm:h-[400px] ' id="player"></div>
             </section>
         </main>
     )

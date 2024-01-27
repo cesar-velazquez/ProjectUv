@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 
 const NavBar = ({ handleOpen, isOpen }) => {
     return (
-        <main className='flex justify-between items-center px-3 py-2 bg-[#0B0F2B] text-white '>
+        <main className='        
+        flex justify-between items-center px-3 py-2 bg-[#0B0F2B] text-white '>
             <div className='w-[50px] h-[100px] sm:pt-4 '>
                 <Link to={'/'}>
                     <img src="/imgs/logoPunta.png" alt="Logo" />
@@ -21,13 +22,16 @@ const NavBar = ({ handleOpen, isOpen }) => {
 
             {
                 isOpen &&
-                (<section className='absolute left-0 top-0 bg-[#0B0F2B] min-h-screen w-[80%] shadow-xl shadow-black '>
+                (<section className='
+                sm:hidden
+                absolute left-0 top-0 bg-[#0B0F2B] min-h-screen w-[80%] shadow-xl shadow-black '>
                     <ul className='bg-[#0B0F2B] text-white absolute top-[15%] left-4 grid gap-4 p-4 font-bold '>
                         <li><Link to={'/'}>Inicio</Link></li>
                         <ul className='pl-4 grid gap-4 '>
                             <a className='' href='#InfGeneral '> <i className='bx bxs-comment-error text-[#FFC107] '></i> Información General</a>
                             <a href='#Description'> <i className='bx bx-clipboard text-[#005e74] '></i> Descripción</a>
                             <a href='#Introducction'> <i className='bx bxs-edit-alt text-[#FFC107] '></i> Introducción</a>
+                            <a href='#content'> <i className='bx bxs-book-content'></i> Contenido</a>
                         </ul>
                         <li>Contenido</li>
                         <ul className='pl-4 grid gap-4 '>

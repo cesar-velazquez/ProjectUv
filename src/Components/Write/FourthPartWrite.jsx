@@ -2,7 +2,7 @@ import SliderTopToBottom from "./SliderTopToBottom"
 
 const FourthPartWrite = () => {
     return (
-        <main className="p-4 ">
+        <main className="bg-[#005e74]/90 p-4 text-white ">
             <h1 className="title ">
                 <i className='bx bx-edit'></i>
                 Escribir en el ámbito universitario</h1>
@@ -11,6 +11,7 @@ const FourthPartWrite = () => {
             <section>
                 <SliderTopToBottom />
             </section>
+
         </main>
     )
 }

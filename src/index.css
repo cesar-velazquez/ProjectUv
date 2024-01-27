@@ -5,6 +5,10 @@
     font-size: 1.5rem;
 }
 
+.titlesm{    
+    font-size: 2.5rem;
+}
+
 * {
     scroll-behavior: smooth;
     scroll-margin-top: 10px;

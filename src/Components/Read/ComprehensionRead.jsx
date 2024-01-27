@@ -8,10 +8,10 @@ const ComprehensionRead = ({ IsShow,
 
     return (
         <main className='p-4 bg-[#005e74] text-white '>
-            <h2 className='title '><i className='bx bx-transfer-alt'></i> Niveles de comprensión lectora</h2>
+            <h2 className='title text-[2.5rem] '><i className='bx bx-transfer-alt'></i> Niveles de comprensión lectora</h2>
             <div className='grid gap-4 '>
-                <p>Es importante destacar que los niveles de comprensión de la lectura no son independientes, sino que se superponen unos a otros, se mezclan e interactúan entre sí, de tal modo que no hay un buen entendimiento crítico sin la comprensión inferencial y ésta a su vez depende de la literal; de igual forma la comprensión crítica activa la apreciativa y la creadora.</p>
-                <p>En la siguiente pirámide podrás ver las características de los diferentes niveles de la comprensión lectora. Haz clic en el título que desees revisar para desplegar su información.</p>
+                <p className='sm:text-2xl sm:my-4 sm:text-left sm:pl-6 '>Es importante destacar que los niveles de comprensión de la lectura no son independientes, sino que se superponen unos a otros, se mezclan e interactúan entre sí, de tal modo que no hay un buen entendimiento crítico sin la comprensión inferencial y ésta a su vez depende de la literal; de igual forma la comprensión crítica activa la apreciativa y la creadora.</p>
+                <p className='sm:text-2xl sm:my-4 sm:text-left sm:pl-6 '>En la siguiente pirámide podrás ver las características de los diferentes niveles de la comprensión lectora. Haz clic en el título que desees revisar para desplegar su información.</p>
             </div>
 
 
@@ -125,7 +125,7 @@ const ComprehensionRead = ({ IsShow,
                 {
                     IsShow === 4 &&
                     <main className='fixed bottom-0 top-0 left-0 right-0 flex justify-center items-center z-10 bg-black/60 ' >
-                        <div className='absolute bg-white w-[300px] h-auto rounded-2xl '>
+                        <div className=' bg-white w-[300px] h-auto rounded-2xl '>
                             <button onClick={handleClose} className='absolute top-0 right-0 px-3 w-8 text-red-600 font-bold aspect-square bg-[#9c9c9c] rounded-full flex justify-center items-center  ' >X</button>
                             <h3 className='bg-[#333554] text-xl rounded-t-2xl p-4 title '>2. Comprensión inferencial</h3>
                             <p className='text-black text-center font-bold '>Acciones y resultados:</p>
@@ -181,7 +181,7 @@ const ComprehensionRead = ({ IsShow,
             </div>
 
             <section className='pt-5'>
-                <p>En resumen, al leer se trata de aprender el significado (lo que se dice) y el sentido (lo que quiere decir y por qué lo dice) del texto para conformar nuestro criterio, y con ello participar conscientemente en la solución de problemas reales. La lectura, entonces, deja de ser un acto decodificador simple para convertirse en un trabajo activo de construcción de significados a partir de los signos plasmados en el texto (Jiménez, 2015).</p>
+                <p className='sm:text-2xl sm:py-8 sm:text-left sm:pl-6'>En resumen, al leer se trata de aprender el significado (lo que se dice) y el sentido (lo que quiere decir y por qué lo dice) del texto para conformar nuestro criterio, y con ello participar conscientemente en la solución de problemas reales. La lectura, entonces, deja de ser un acto decodificador simple para convertirse en un trabajo activo de construcción de significados a partir de los signos plasmados en el texto (Jiménez, 2015).</p>
             </section>
         </main>
     )

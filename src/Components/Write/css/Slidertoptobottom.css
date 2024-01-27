@@ -1,0 +1,10 @@
+.line-clamp-6In {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 12;
+}
+
+.scrollable-text {
+    overflow-y: auto;
+}

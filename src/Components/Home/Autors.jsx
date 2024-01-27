@@ -23,10 +23,10 @@ const Autors = () => {
     return (
         <main className='bg-[#0B0F2B] text-white font-bold '>
             <h1 className='title flex items-center justify-center pt-8
-            gap-2 '>
+            gap-2 sm:text-[2.5rem] '>
             <i className='bx bxs-user-circle'></i> Autores</h1>
-            <section className=' h-[250px] flex flex-col justify-center items-center ' >
-                <article className=' w-[300px] h-[150px] '>
+            <section className=' h-[250px] sm:h-[400px] flex flex-col justify-center items-center ' >
+                <article className=' w-[300px] h-[150px] sm:w-[350px] sm:h-[300px] '>
                     <Swiper
                         spaceBetween={30}
                         centeredSlides={true}
@@ -42,27 +42,27 @@ const Autors = () => {
                         className="mySwiper"
                     >
                         <SwiperSlide className='flex justify-center items-start h-[200px] ' >
-                            <div className='bg-black/20 w-[100%] p-2 rounded-xl items-center flex flex-col '>
-                                <img className='rounded-full' src="/imgs/autor5.jpg" alt="Autor" />
-                                <a href='#' className='items-center '>Judith Guadalupe Páez Paniagua</a>
+                            <div className='bg-black/20 w-[100%] sm:w-[150%] sm:h-[250px] p-2 rounded-xl items-center flex flex-col '>
+                                <img className='rounded-full  ' src="/imgs/autor5.jpg" alt="Autor" />
+                                <a href='#' className='items-center sm:text-2xl sm:text-center '>Judith Guadalupe Páez Paniagua</a>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide className='flex justify-center items-start h-[200px] ' >
-                            <div className='bg-black/20 w-[100%] p-2 rounded-xl items-center flex flex-col '>
+                            <div className='bg-black/20 w-[100%] sm:w-[150%] sm:h-[250px] p-2 rounded-xl items-center flex flex-col '>
                                 <img className='rounded-full' src="/imgs/autor1.jpg" alt="Autor" />
                                 <p className='items-center '>Eric Damián Espinosa Gutiérrez</p>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide className='flex justify-center items-start h-[200px] ' >
-                            <div className='bg-black/20 w-[100%] p-2 rounded-xl items-center flex flex-col '>
+                            <div className='bg-black/20 w-[100%] sm:w-[150%] sm:h-[250px] p-2 rounded-xl items-center flex flex-col '>
                                 <img className='rounded-full' src="/imgs/autor3.jpg" alt="Autor" />
                                 <p className='items-center '>Gloria Leticia Chama Beristáin</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className='flex justify-center items-start h-[200px] ' >
-                            <div className='bg-black/20 w-[100%] p-2 rounded-xl items-center flex flex-col '>
+                            <div className='bg-black/20 w-[100%] sm:w-[150%] sm:h-[250px] p-2 rounded-xl items-center flex flex-col '>
                                 <img className='rounded-full' src="/imgs/autor4.jpg" alt="Autor" />
                                 <p className='items-center '>Maité María Teresa Sampieri Croda</p>
                             </div>
