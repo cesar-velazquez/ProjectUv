@@ -24,7 +24,7 @@ const NavBar = ({ handleOpen, isOpen, setIsOpen }) => {
                         <img src="/imgs/logoPunta.png" alt="Logo" />
                     </Link>
                 </div>
-                <div className='sm:m-auto  '>
+                <div className='sm:m-auto w-[60%] text-left   '>
                     <Link to={'/'} className='font-bold sm:text-xl '>Leer y escribir en la educación superior</Link>
                 </div>
                 <div className='absolute top-2 right-2 sm:hidden '>
