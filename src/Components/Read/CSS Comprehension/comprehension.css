@@ -78,4 +78,6 @@
     margin-bottom: 1rem;   
 }
 /* #0B0F2B */
-
+.scrollable-text {
+    overflow-y: auto;
+}

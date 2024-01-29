@@ -29,9 +29,10 @@ const ComprehensionRead = ({ IsShow,
                 </button>
                 {
                     IsShow === 1 &&
-                    <main className='fixed z-10 top-0 bottom-0 left-0 right-0 flex items-center justify-center bg-black/60 '>
-                        <div className='bg-white w-[300px] h-auto rounded-2xl'>
-                            <button onClick={handleClose} className='absolute top-0 right-0 px-3 w-8 h-8 bg-gray-300 rounded-full text-red-600 font-bold flex justify-center items-center'>X</button>
+                    <main className='fixed pt-[75px] z-10 top-0 bottom-0 left-0 right-0 flex items-center justify-center bg-black/60 '>
+                        <div className='bg-white w-[300px] h-auto rounded-2xl animate-jump-in '>
+                            <button onClick={handleClose} className=' absolute top-0 right-0 px-3 w-8 h-8 bg-gray-300 rounded-full text-red-600 font-bold flex justify-center items-center
+                            md:text-[2rem] md:top-0 '>X</button>
                             <h3 className='bg-[#FFC107] text-xl rounded-t-2xl p-4 title'>5.- Comprensión creativa</h3>
                             <p className='text-black text-center font-bold'>Acciones y resultados:</p>
                             <ol className='text-black text-center p-4 pl-8 list-[lower-latin]'>
@@ -60,9 +61,11 @@ const ComprehensionRead = ({ IsShow,
                 </button>
                 {
                     IsShow === 2 &&
-                    <main className='fixed bottom-0 top-0 left-0 right-0 z-10 flex justify-center items-center bg-black/60' >
-                        <div className='bg-white w-[300px] h-auto rounded-2xl '>
-                            <button onClick={handleClose} className='absolute right-0 top-0 px-3 w-8 h-8 aspect-square bg-[#9c9c9c] text-red-600 font-bold rounded-full flex justify-center items-center  ' >X</button>
+                    <main className=' pt-[75px] fixed bottom-0 top-0 left-0 right-0 z-10 flex justify-center items-center bg-black/60' >
+                        <div className='bg-white w-[300px] h-auto rounded-2xl
+                        animate-jump'>
+                            <button onClick={handleClose} className='absolute right-0 top-0 px-3 w-8 h-8 aspect-square bg-[#9c9c9c] text-red-600 font-bold rounded-full flex justify-center items-center  
+                            ' >X</button>
                             <h3 className='bg-[#00BCD4] text-xl rounded-t-2xl p-4 title '>4.- Comprensión apreciativa</h3>
                             <p className='text-black text-center font-bold '>Acciones y resultados:</p>
                             <ol className='text-black text-center p-4 pl-8 list-[lower-latin] '>
@@ -89,8 +92,9 @@ const ComprehensionRead = ({ IsShow,
 
                 {
                     IsShow === 3 &&
-                    <main className='fixed z-10 bottom-0 top-0 left-0 right-0 flex justify-center items-center bg-black/60 ' >
-                        <div className=' bg-white w-[300px] h-auto rounded-2xl '>
+                    <main className=' pt-[190px] scrollable-text fixed z-10 bottom-0 top-0 left-0 right-0 flex justify-center items-center bg-black/60 ' >
+                        <div className=' bg-white w-[300px] h-auto rounded-2xl 
+                        animate-jump '>
                             <button onClick={handleClose} className='absolute top-0 right-0 px-3 w-8 text-red-600 font-bold aspect-square bg-[#9c9c9c] rounded-full flex justify-center items-center  ' >X</button>
                             <h3 className='bg-[#005e74] text-xl rounded-t-2xl p-4 title '>3.- Comprensión crítica</h3>
                             <p className='text-black text-center font-bold '>Acciones y resultados:</p>
@@ -124,8 +128,9 @@ const ComprehensionRead = ({ IsShow,
                 </button>
                 {
                     IsShow === 4 &&
-                    <main className='fixed bottom-0 top-0 left-0 right-0 flex justify-center items-center z-10 bg-black/60 ' >
-                        <div className=' bg-white w-[300px] h-auto rounded-2xl '>
+                    <main className='pt-[170px] scrollable-text fixed bottom-0 top-0 left-0 right-0 flex justify-center items-center z-10 bg-black/60 ' >
+                        <div className=' bg-white w-[300px] h-auto rounded-2xl animate-fade-right
+                        '>
                             <button onClick={handleClose} className='absolute top-0 right-0 px-3 w-8 text-red-600 font-bold aspect-square bg-[#9c9c9c] rounded-full flex justify-center items-center  ' >X</button>
                             <h3 className='bg-[#333554] text-xl rounded-t-2xl p-4 title '>2. Comprensión inferencial</h3>
                             <p className='text-black text-center font-bold '>Acciones y resultados:</p>
@@ -156,8 +161,8 @@ const ComprehensionRead = ({ IsShow,
                 </button>
                 {
                     IsShow === 5 &&
-                    <main className='fixed bg-black/60 bottom-0 top-0 left-0 right-0 flex justify-center items-center ' >
-                        <div className=' bg-white w-[300px] h-auto rounded-2xl '>
+                    <main className='pt-[75px] scrollable-text fixed bg-black/60 bottom-0 top-0 left-0 right-0 flex justify-center items-center ' >
+                        <div className=' bg-white w-[300px] h-auto rounded-2xl animate-fade-left '>
                             <button onClick={handleClose} className='absolute top-0  right-0 px-3 w-8 text-red-600 font-bold aspect-square bg-[#9c9c9c] rounded-full flex justify-center items-center  ' >X</button>
                             <h3 className='bg-[#0B0F2B] text-xl rounded-t-2xl p-4 title '>1. Comprensión literal</h3>
                             <p className='text-black text-center font-bold '>Acciones y resultados:</p>
