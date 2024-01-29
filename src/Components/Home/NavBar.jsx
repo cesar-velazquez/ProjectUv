@@ -18,13 +18,13 @@ const NavBar = ({ handleOpen, isOpen, setIsOpen }) => {
         <main className=' '>
             <section className='flex justify-between items-center px-3 py-2 
         text-white w-[100%] max-w-[1200px]
-        fixed  bg-[#151b48] h-[75px]  z-20'>
+        fixed  bg-[#151b48] h-[75px] mb-[100px]  z-20'>
                 <div className='relative w-[50px] h-[100px] sm:pt-4 '>
                     <Link to={'/'}>
                         <img src="/imgs/logoPunta.png" alt="Logo" />
                     </Link>
                 </div>
-                <div className='sm:m-auto w-[60%] text-left   '>
+                <div className='sm:m-auto w-[60%] text-center   '>
                     <Link to={'/'} className='font-bold sm:text-xl '>Leer y escribir en la educación superior</Link>
                 </div>
                 <div className='absolute top-2 right-2 sm:hidden '>
@@ -37,7 +37,7 @@ const NavBar = ({ handleOpen, isOpen, setIsOpen }) => {
                 {
                     isOpen &&
                     (<section className='
-                bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-green-200 to-green-500
+                animate-fade-right bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-green-200 to-green-500
                 sm:hidden z-20
                 absolute left-0 top-0 min-h-screen w-[80%] shadow-xl shadow-black '>
                         <ul className='bg-black/70 text-white absolute top-[15%] left-4 grid gap-4 p-4 font-bold '>
@@ -47,10 +47,10 @@ const NavBar = ({ handleOpen, isOpen, setIsOpen }) => {
                             {
                                 showOptions && (
                                     <ul className='pl-4 grid gap-4 '>
-                                        <a className='' href='#InfGeneral ' id='infgeneral'> <i className='bx bxs-comment-error text-[#FFC107] '></i> Información General</a>
-                                        <a href='#Description' id='description' > <i className='bx bx-clipboard text-[#005e74] '></i> Descripción</a>
-                                        <a href='#Introducction' id='introduccion'> <i className='bx bxs-edit-alt text-[#FFC107] '></i> Introducción</a>
-                                        <a href='#content' id='content'> <i className='bx bxs-book-content'></i> Contenido</a>
+                                        <a onClick={handleHome} className='' href='#InfGeneral ' id='infgeneral'> <i className='bx bxs-comment-error text-[#FFC107] '></i> Información General</a>
+                                        <a onClick={handleHome} href='#Description' id='description' > <i className='bx bx-clipboard text-[#005e74] '></i> Descripción</a>
+                                        <a onClick={handleHome} href='#Introducction' id='introduccion'> <i className='bx bxs-edit-alt text-[#FFC107] '></i> Introducción</a>
+                                        <a onClick={handleHome} href='#content' id='content'> <i className='bx bxs-book-content'></i> Contenido</a>
                                     </ul>
                                 )
                             }
@@ -62,7 +62,7 @@ const NavBar = ({ handleOpen, isOpen, setIsOpen }) => {
                             </ul>
                         </ul>
                     </section>)
-                }
+                }                
             </section>
 
         </main>

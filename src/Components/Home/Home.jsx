@@ -49,8 +49,9 @@ const Home = () => {
                 </ul>
             </section>
 
-            <section id='InfGeneral' className='bg-[url(/imgs/leer2.jpg)] bg-cover bg-center '>
-                <section className='bg-black/80  text-white p-4 pb-5 '>
+
+            <section id='InfGeneral' className=' bg-[url(/imgs/leer2.jpg)] bg-cover bg-center '>
+                <section className='bg-black/80 py-[75px]  text-white px-4'>
                     <h2 className='title py-2 sm:text-[2rem]'>
                         <i className='bx bxs-comment-error'></i> Información general</h2>
                     <p className='sm:text-xl '>
@@ -62,12 +63,13 @@ const Home = () => {
                 </section>
             </section>
 
+
             <section>
                 <Autors />
             </section>
 
             <section id='Description' className='bg-[url(/imgs/escritura.jpg)] bg-cover bg-center '>
-                <section className='bg-white text-black p-4 pb-5 '>
+                <section className='bg-white py-[75px] text-black p-4 pb-5 '>
                     <h2 className='title sm:text-[2rem] '><i className='bx bx-clipboard'></i>
                         Descripción</h2>
                     <div className='sm:grid sm:gap-4'>
@@ -78,8 +80,8 @@ const Home = () => {
                 </section>
             </section>
 
-            <section id='Introducction' className='bg-[url(/imgs/escritura3.jpg)] bg-cover bg-center '>
-                <section className='bg-green-700/80 text-white p-4 pb-5 '>
+            <section id='Introducction' className=' bg-[url(/imgs/escritura3.jpg)] bg-cover bg-center '>
+                <section className='bg-green-700/80 py-[75px] text-white px-4'>
                     <h2 className='title sm:text-[2rem] '><i className='bx bxs-edit-alt'></i>
                         Introducción</h2>
                     <div className='sm:grid sm:gap-4'>
@@ -90,20 +92,20 @@ const Home = () => {
                 </section>
             </section>
 
-            <section id='content' className='bg-[#151b48] p-4 text-white '>
+            <section id='content' className='bg-[#151b48] py-[75px] px-4 text-white '>
                 <h2 className='title sm:text-[2rem] '><i className='bx bxs-book-content'></i> Contenido</h2>
                 <div className='flex gap-2 justify-center items-center p-2 h-auto '>
                     <Link to={'/read'} className=' w-[90px] sm:w-[180px] h-[250px] hover:scale-105 hover:bg-green-700 py-2 duration-1000 transition-colors '>
                         <img className='h-[150px] w-[100px] sm:w-[150px] m-auto ' src="/imgs/btnleer.jpg" alt="Leer" />
-                        <p  className='text-sm  sm:text-lg text-center sm:w-[150px] m-auto ' >Tema 1: ¿Qué es leer?</p>
+                        <p className='text-sm  sm:text-lg text-center sm:w-[150px] m-auto ' >Tema 1: ¿Qué es leer?</p>
                     </Link>
                     <Link to={'/write'} className=' w-[90px] sm:w-[180px] h-[250px] hover:scale-105 hover:bg-green-700 py-2 duration-1000 transition-colors '>
                         <img className='h-[150px] w-[100px] sm:w-[150px] m-auto ' src="/imgs/btnescribir.jpg" alt="Leer" />
-                        <p  className='text-sm sm:text-lg text-center  sm:w-[150px] m-auto ' >Tema 2: ¿Qué es Escribir?</p>
+                        <p className='text-sm sm:text-lg text-center  sm:w-[150px] m-auto ' >Tema 2: ¿Qué es Escribir?</p>
                     </Link>
                     <Link to={'/exercise'} className=' w-[90px] sm:w-[180px] h-[250px] hover:scale-105 hover:bg-green-700 py-2 duration-1000 transition-colors '>
                         <img className='h-[150px] w-[100px] sm:w-[150px] m-auto ' src="/imgs/btnlectura.jpg" alt="Leer" />
-                        <p  className='text-sm sm:text-lg text-center  sm:w-[150px] m-auto ' >Lectura integradora</p>
+                        <p className='text-sm sm:text-lg text-center  sm:w-[150px] m-auto ' >Lectura integradora</p>
                     </Link>
                 </div>
             </section>
