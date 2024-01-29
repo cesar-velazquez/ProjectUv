@@ -4,7 +4,7 @@ import SliderWriter from './SliderWriter'
 const FirstPartWrite = () => {
     return (
         <main className=''>
-            <section className='relative h-[300px] z-10'>
+            <section className='relative h-[200px] sm:h-[300px] z-10'>
                 <SliderWriter />
                 <section className='absolute left-0 right-0 bg-green-700/80 text-white p-4 pb-5 h-[100%] '>
                     <div className='flex justify-end '>
