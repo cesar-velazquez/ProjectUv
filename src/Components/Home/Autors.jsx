@@ -21,9 +21,9 @@ const Autors = () => {
     };
 
     return (
-        <main className='bg-[#0B0F2B] text-white font-bold '>
+        <main className='bg-[#151b48] text-white font-bold '>
             <h1 className='title flex items-center justify-center pt-8
-            gap-2 sm:text-[2.5rem] '>
+            gap-2 sm:text-[2rem] '>
             <i className='bx bxs-user-circle'></i> Autores</h1>
             <section className=' h-[250px] sm:h-[400px] flex flex-col justify-center items-center ' >
                 <article className=' w-[300px] h-[150px] sm:w-[350px] sm:h-[300px] '>
@@ -44,7 +44,7 @@ const Autors = () => {
                         <SwiperSlide className='flex justify-center items-start h-[200px] ' >
                             <div className='bg-black/20 w-[100%] sm:w-[150%] sm:h-[250px] p-2 rounded-xl items-center flex flex-col '>
                                 <img className='rounded-full  ' src="/imgs/autor5.jpg" alt="Autor" />
-                                <a href='#' className='items-center sm:text-2xl sm:text-center '>Judith Guadalupe Páez Paniagua</a>
+                                <a href='#' className='items-center sm:text-xl sm:text-center '>Judith Guadalupe Páez Paniagua</a>
                             </div>
                         </SwiperSlide>
 

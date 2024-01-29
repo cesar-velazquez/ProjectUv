@@ -7,11 +7,11 @@ const ComprehensionRead = ({ IsShow,
     handleClose }) => {
 
     return (
-        <main className='p-4 bg-[#005e74] text-white '>
-            <h2 className='title text-[2.5rem] '><i className='bx bx-transfer-alt'></i> Niveles de comprensión lectora</h2>
+        <main className='p-4 bg-green-700/80 text-white '>
+            <h2 className='title sm:text-[2rem] '><i className='bx bx-transfer-alt'></i> Niveles de comprensión lectora</h2>
             <div className='grid gap-4 '>
-                <p className='sm:text-2xl sm:my-4 sm:text-left sm:pl-6 '>Es importante destacar que los niveles de comprensión de la lectura no son independientes, sino que se superponen unos a otros, se mezclan e interactúan entre sí, de tal modo que no hay un buen entendimiento crítico sin la comprensión inferencial y ésta a su vez depende de la literal; de igual forma la comprensión crítica activa la apreciativa y la creadora.</p>
-                <p className='sm:text-2xl sm:my-4 sm:text-left sm:pl-6 '>En la siguiente pirámide podrás ver las características de los diferentes niveles de la comprensión lectora. Haz clic en el título que desees revisar para desplegar su información.</p>
+                <p className='sm:text-xl sm:my-4 sm:text-left sm:pl-6 '>Es importante destacar que los niveles de comprensión de la lectura no son independientes, sino que se superponen unos a otros, se mezclan e interactúan entre sí, de tal modo que no hay un buen entendimiento crítico sin la comprensión inferencial y ésta a su vez depende de la literal; de igual forma la comprensión crítica activa la apreciativa y la creadora.</p>
+                <p className='sm:text-xl sm:my-4 sm:text-left sm:pl-6 '>En la siguiente pirámide podrás ver las características de los diferentes niveles de la comprensión lectora. Haz clic en el título que desees revisar para desplegar su información.</p>
             </div>
 
 
@@ -181,7 +181,7 @@ const ComprehensionRead = ({ IsShow,
             </div>
 
             <section className='pt-5'>
-                <p className='sm:text-2xl sm:py-8 sm:text-left sm:pl-6'>En resumen, al leer se trata de aprender el significado (lo que se dice) y el sentido (lo que quiere decir y por qué lo dice) del texto para conformar nuestro criterio, y con ello participar conscientemente en la solución de problemas reales. La lectura, entonces, deja de ser un acto decodificador simple para convertirse en un trabajo activo de construcción de significados a partir de los signos plasmados en el texto (Jiménez, 2015).</p>
+                <p className='sm:text-xl sm:py-8 sm:text-left sm:pl-6'>En resumen, al leer se trata de aprender el significado (lo que se dice) y el sentido (lo que quiere decir y por qué lo dice) del texto para conformar nuestro criterio, y con ello participar conscientemente en la solución de problemas reales. La lectura, entonces, deja de ser un acto decodificador simple para convertirse en un trabajo activo de construcción de significados a partir de los signos plasmados en el texto (Jiménez, 2015).</p>
             </section>
         </main>
     )
