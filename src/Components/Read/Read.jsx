@@ -10,8 +10,8 @@ const Read = ({ IsShow,
     handleShow,
     handleClose }) => {
     return (
-        <main>            
-            <section className='relative h-[300px] z-10 '>
+        <main className='pt-[75px]'>            
+            <section className='relative h-[300px] z-10  '>
                 <SliderRead />                
                 <section className='absolute left-0 right-0 bg-green-700/80 text-white p-4 pb-5 h-[100%] '>
                     <div className='flex justify-end '>

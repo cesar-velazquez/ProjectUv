@@ -76,7 +76,7 @@ const Form = () => {
 
     return (
 
-        <main className=' bg-[#060b34] text-white'>
+        <main className=' bg-[#060b34] text-white pt-[75px]'>
             <section className='sm:max-w-[600px] md:max-w-[700px] m-auto py-4 pt-8  '>
 
                 <h5 className='sm:text-xl px-4 font-bold bg-green-700 '>Pregunta en el nivel literal (análisis). La vaca, la cabra y la oveja se asociaron con el león porque:</h5>

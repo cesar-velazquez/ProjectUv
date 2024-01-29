@@ -12,8 +12,8 @@ const Sources = () => {
             <h1 className='title sm:text-[2rem] sm:my-4 '>
             <i className='bx bx-copy-alt'></i>
             Fuentes de información</h1>
-            <section className='bg-black/80 sm:w-[500px] sm:m-auto '>
-                <div className='flex my-2 sm:w-[500px] sm:m-auto '>
+            <section className='bg-black/80 sm:w-[500px] md:w-[700px] sm:m-auto '>
+                <div className='flex my-2 sm:w-[500px] md:w-[700px]  sm:m-auto '>
                     <button onClick={() => handleSource(1)} className='text-white font-bold text-base w-[50%] sm:h-[80px] border-2 sm:text-xl border-green-700 text-center hover:font-bold hover:text-black hover:bg-green-600 transition-colors duration-300  ' >Fuentes Básicas</button>
                     <button onClick={() => handleSource(2)} className='text-white font-bold text-base w-[50%] sm:h-[80px] border-2 sm:text-xl border-green-700 text-center hover:font-bold hover:text-black hover:bg-green-600 transition-colors duration-300  ' >Fuentes Complementarias </button>
                 </div>
@@ -21,7 +21,7 @@ const Sources = () => {
             {
                 IsSourceType === 1 &&
                 <main className='text-white grid gap-6 bg-[#151b48] 
-                p-2 py-5 rounded-lg sm:w-[500px] sm:m-auto '>
+                p-2 py-5 rounded-lg sm:w-[500px] md:w-[700px] sm:m-auto '>
                     <div className='flex flex-col gap-2'>
                         <p className='sm:text-xl'>Castro, M. & Sánchez, M. (2016). Características genéricas y estrategias de lectura. Una propuesta para la comprensión de textos académicos; en Enseñar a leer y escribir en la educación superior. Propuestas educativas basadas en la investigación. Libros de acceso libre. Universidad Autónoma de Tamaulipas. Recuperado de: </p>
                         <a className='hover:scale-105 bg-green-700 border-white border-2 text-black font-bold p-2 w-[100px] text-center m-auto   ' href="http://www.fundacion-sm.org.mx/sites/default/files/Ense%C3%B1ar%20a%20leer%20y%20escribir.pdf">Visitar</a>
@@ -61,7 +61,7 @@ const Sources = () => {
             {
                 IsSourceType === 2 &&
                 <main className='text-white grid gap-6 bg-[#0B0F2B] 
-                p-2 py-5 rounded-lg sm:w-[700px] sm:m-auto '>
+                p-2 py-5 rounded-lg sm:w-[500px] md:w-[700px] sm:m-auto '>
                     <div className='flex flex-col gap-2'>
                         <p className='sm:text-xl'>Castro, M. coord.ª (2013). Alfabetización Académica y Comunicación de Saberes: la lectura y la escritura en la universidad. México: Universidad Autónoma de Tlaxcala, Facultad de Filosofía y Letras.</p>
                         <p className='sm:text-xl'>Chagoya, E. (2008). Enseñanza de la lectura y la escritura. Gestiópolis. Recuperado de:</p>

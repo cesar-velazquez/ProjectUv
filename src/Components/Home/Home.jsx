@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
-        <main>
+        <main className='pt-[75px] '>
             <section className='bg-[url(imgs/leer.jpg)] bg-cover bg-center h-[300px]  '>
                 <section className='bg-green-700/80 text-white p-4 pb-5 h-[100%] '>
                     <div className='flex justify-end '>
@@ -93,15 +93,15 @@ const Home = () => {
             <section id='content' className='bg-[#151b48] p-4 text-white '>
                 <h2 className='title sm:text-[2rem] '><i className='bx bxs-book-content'></i> Contenido</h2>
                 <div className='flex gap-2 justify-center items-center p-2 h-auto '>
-                    <Link to={'/read'} className=' w-[90px] sm:w-[180px] h-[250px] hover:scale-105 hover:bg-[#00BCD4] duration-700 transition-colors '>
+                    <Link to={'/read'} className=' w-[90px] sm:w-[180px] h-[250px] hover:scale-105 hover:bg-green-700 py-2 duration-1000 transition-colors '>
                         <img className='h-[150px] w-[100px] sm:w-[150px] m-auto ' src="/imgs/btnleer.jpg" alt="Leer" />
                         <p  className='text-sm  sm:text-lg text-center sm:w-[150px] m-auto ' >Tema 1: ¿Qué es leer?</p>
                     </Link>
-                    <Link to={'/write'} className=' w-[90px] sm:w-[180px] h-[250px] hover:scale-105 hover:bg-[#00BCD4] duration-700 transition-colors '>
+                    <Link to={'/write'} className=' w-[90px] sm:w-[180px] h-[250px] hover:scale-105 hover:bg-green-700 py-2 duration-1000 transition-colors '>
                         <img className='h-[150px] w-[100px] sm:w-[150px] m-auto ' src="/imgs/btnescribir.jpg" alt="Leer" />
                         <p  className='text-sm sm:text-lg text-center  sm:w-[150px] m-auto ' >Tema 2: ¿Qué es Escribir?</p>
                     </Link>
-                    <Link to={'/exercise'} className=' w-[90px] sm:w-[180px] h-[250px] hover:scale-105 hover:bg-[#00BCD4] duration-700 transition-colors '>
+                    <Link to={'/exercise'} className=' w-[90px] sm:w-[180px] h-[250px] hover:scale-105 hover:bg-green-700 py-2 duration-1000 transition-colors '>
                         <img className='h-[150px] w-[100px] sm:w-[150px] m-auto ' src="/imgs/btnlectura.jpg" alt="Leer" />
                         <p  className='text-sm sm:text-lg text-center  sm:w-[150px] m-auto ' >Lectura integradora</p>
                     </Link>

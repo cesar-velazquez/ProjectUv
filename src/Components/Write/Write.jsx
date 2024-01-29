@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 const Write = () => {
     return (
-        <main >
+        <main className='pt-[75px]' >
             <FirstPartWrite />
 
             <section>

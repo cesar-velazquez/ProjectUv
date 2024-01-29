@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const ExerciseOfReading = () => {
     return (
-        <main className="bg-[#151b48]/90 p-4 text-white ">
+        <main className="bg-[#151b48]/90 p-4 text-white pt-[75px] ">
             <h2 className="title mb-2 sm:text-[2rem] ">Niveles de comprensión lectora</h2>
             <p className="sm:text-xl sm:text-left sm:pl-6 sm:py-4">Las fábulas son composiciones literarias de carácter alegórico, escritas generalmente en verso, que mediante la personificación de seres irracionales,inanimados o abstractos, pretenden dar una enseñanza útil o moral, que a menudo aparece formulada de forma expresa en lo que se conoce como moraleja (Suárez, s/f). </p>
 

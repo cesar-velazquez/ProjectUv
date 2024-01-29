@@ -43,7 +43,7 @@ function App() {
     // bg-[#060b34]
     <main className='bg-[#060b34] min-h-screen font-Lato '>      
       <section className='max-w-[1200px] bg-white min-h-screen m-auto '>
-        <NavBar handleOpen={handleOpen} isOpen={isOpen} />
+        <NavBar handleOpen={handleOpen} isOpen={isOpen} setIsOpen={setIsOpen} />
         <Routes>
           <Route path='/' element={<Inicio />} />
           <Route path='/read' element={<TopicOne IsShow={IsShow} handleShow={handleShow} handleClose={handleClose} />} />
