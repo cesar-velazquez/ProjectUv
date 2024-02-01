@@ -1,0 +1,97 @@
+.loadership_YHEGH {
+    display: flex;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.loadership_YHEGH div {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #2a50c0;
+    animation:
+        loadership_YHEGH_scale 1.9s infinite,
+        loadership_YHEGH_fade 1.9s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.loadership_YHEGH div:nth-child(1) {
+    animation-delay: 0s;
+    top: 0px;
+    left: 0px;
+}
+
+.loadership_YHEGH div:nth-child(2) {
+    animation-delay: 0.15s;
+    top: 0px;
+    left: 50px;
+}
+
+.loadership_YHEGH div:nth-child(3) {
+    animation-delay: 0.3s;
+    top: 0px;
+    left: 100px;
+}
+
+.loadership_YHEGH div:nth-child(4) {
+    animation-delay: 0.15s;
+    top: 50px;
+    left: 0px;
+}
+
+.loadership_YHEGH div:nth-child(5) {
+    animation-delay: 0.3s;
+    top: 50px;
+    left: 50px;
+}
+
+.loadership_YHEGH div:nth-child(6) {
+    animation-delay: 0.45s;
+    top: 50px;
+    left: 100px;
+}
+
+.loadership_YHEGH div:nth-child(7) {
+    animation-delay: 0.3s;
+    top: 100px;
+    left: 0px;
+}
+
+.loadership_YHEGH div:nth-child(8) {
+    animation-delay: 0.45s;
+    top: 100px;
+    left: 50px;
+}
+
+.loadership_YHEGH div:nth-child(9) {
+    animation-delay: 0.6s;
+    top: 100px;
+    left: 100px;
+}
+
+@keyframes loadership_YHEGH_scale {
+
+    0%,
+    47.36842105263158%,
+    100% {
+        transform: scale(1);
+    }
+
+    23.68421052631579% {
+        transform: scale(0);
+    }
+}
+
+@keyframes loadership_YHEGH_fade {
+
+    0%,
+    47.36842105263158%,
+    100% {
+        opacity: 1;
+    }
+
+    23.68421052631579% {
+        opacity: 1;
+    }
+}
